@@ -1,0 +1,14 @@
+name:                   WHILE
+version:                0
+license:                GPL-3
+license-file:           LICENSE
+author:                 Olivia B.
+maintainer:             ocb2@users.noreply.github.com
+build-type:             Simple
+cabal-version:          >=1.10
+
+executable WHILE
+    main-is:            Main.hs
+    build-depends:      base, mtl, fgl
+    hs-source-dirs:     src
+    default-language:   Haskell2010
